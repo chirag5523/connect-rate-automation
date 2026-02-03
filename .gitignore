@@ -1,0 +1,12 @@
+# Ignore Excel data
+data/raw/*.xlsx
+data/output/*.xlsx
+**/*.xlsx
+
+# Ignore temporary Excel files (OneDrive/Office locks)
+~$*.xlsx
+
+# Python environment
+__pycache__/
+.venv/
+.DS_Store
